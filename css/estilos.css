@@ -1,0 +1,92 @@
+/*font*/
+body{
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Inconsolata', monospace;
+    color: #1f00ff;
+    background-color: #ff82ff;
+}
+
+h1 {
+  color: #1f00ff;
+}
+
+/* navegador */
+.nav-enlace {
+    display: inline-block;
+    background:none;
+    /* padding: 1% 3%; */
+    text-decoration: none;
+    /* margin: 0 auto; */
+}
+
+.nav-enlace:hover{
+    background-color:none;
+    text-decoration: underline;
+}
+
+.nav-enlace:active{
+    background-color:none;
+    text-decoration: underline;
+}
+
+.ne-bold{
+    /* color: mediumaquamarine; */
+    font-weight: 600;
+    font-size: 2.1em;
+    margin:1%;
+
+}
+.ne-regular{
+    padding: 1%;
+    margin:1%;
+}
+
+nav{
+    background: none;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    /* display: inline; */
+    /* display: flexbox; */
+    /* line-height: 1.5; */
+    /* justify-content: space-around; */
+}
+
+/* tabla */
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container-holder{
+    width: 90%;
+}
+.columna{
+    width: 33%;
+    margin: 0 auto;
+    padding: 1%;
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+}
+
+.img-box{
+    width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 1%; */
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+}
+
+.tb-cabeza {
+    font-weight: bold;
+}

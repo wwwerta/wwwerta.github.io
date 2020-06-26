@@ -1,2 +1,2 @@
-# wwwerta.github.io
-huerta de links. repositorio afectivo. cultivo mixto.
+# wwwerta
+huerta de links. repositorio afectivo. cultivos mixtos.
