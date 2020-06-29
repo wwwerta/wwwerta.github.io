@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>wwwerta</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
 
@@ -20,24 +20,39 @@
     <p>huerta de links. repositorio afectivo. cultivo mixto.</p>
   </section>
 
-  <section class="container flex">
-    <table style="width:100%">
-      <tr>
-        <td class="tb-cabeza">fecha</td>
-        <td class="tb-cabeza">usuarix</td>
-        <td class="tb-cabeza">entrada</td>
-        <td class="tb-cabeza">notas</td>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-        <td>20_06_26</td>
-        <td>cianca</td>
-        <td><a href="https://neustadt.fr/essays/the-small-web/">redescubriendo la web pequeña</a></td>
-        <td>ingles</td>
-      </tr>
-    </table>
-  </section>
+
+<div class="container flex">
+        <table sclass="tabla-entradas">
+            <thead>
+                <tr>
+                  <td class="tb-cabeza">fecha</th>
+                  <td class="tb-cabeza">usuarix</th>
+                  <td class="tb-cabeza">entrada</th>
+                  <td class="tb-cabeza">notas</th>
+                </tr>
+                  
+             </thead>
+                <tbody id="entradas">
+                  <script id="entradas-template" type="text/x-handlebars-template">
+                  <tr>
+                   
+                    <td class="">{{cells.fecha}}</th>
+                    <td class="">{{cells.usuarix}}</td>
+                    <td class=""><a href = "{{cells.url}}">{{cells.nombre}}</a></td>
+                    <td class="">{{cells.notas}}</td>
+                   
+                  </tr>
+                   </script>
+                </tbody>
+        </table>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.2/handlebars.min.js"></script>
+    <script src="https://chriszarate.github.io/sheetrock/dist/sheetrock.min.js"></script>
+    <script src="script.js"></script>
+ 
+
   </body>
 
 </html>
